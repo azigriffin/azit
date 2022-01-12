@@ -1,5 +1,3 @@
 #!/bin/bash
 
-curl https://raw.githubusercontent.com/rapid7/metasploit-omnibus/master/config/templates/metasploit-framework-wrappers/msfupdate.erb > msfinstall && \
-  chmod 755 msfinstall && \
-  ./msfinstall
+apt install --allow-unauthenticated --assume-yes gnupg wget libpcap-dev libpcap-dev curl metasploit-framework
