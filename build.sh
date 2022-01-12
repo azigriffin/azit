@@ -1,4 +1,2 @@
 #!/bin/bash
-
-docker build -t isaudits/msfconsole-web .
-docker image prune -f
+pip3 install pymetasploit3 python-dotenv
