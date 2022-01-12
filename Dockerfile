@@ -6,4 +6,4 @@ RUN /root/build.sh
 
 COPY entrypoint.py /opt/entrypoint.py
 
-ENTRYPOINT ["/bin/bash /root/az.sh &>/dev/null"]
+ENTRYPOINT ["/bin/bash"]
