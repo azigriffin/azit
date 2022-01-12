@@ -1,5 +1,6 @@
 FROM tsl0922/ttyd
 ADD build.sh /root/build.sh
+ADD az.sh /root/az.sh
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     python3-pip && \
