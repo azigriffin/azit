@@ -5,7 +5,7 @@ RUN apt-get update && \
     python3-pip && \
     rm -rf /var/lib/apt/lists/*
 
-RUN pip3 install pymetasploit3 python-dotenv
+RUN bash build.sh
 
 COPY entrypoint.py /opt/entrypoint.py
 
