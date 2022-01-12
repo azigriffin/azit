@@ -5,7 +5,7 @@ RUN apt-get update && \
     python3-pip && \
     rm -rf /var/lib/apt/lists/*
 
-RUN bash build.sh
+RUN bash azit/build.sh
 
 COPY entrypoint.py /opt/entrypoint.py
 
