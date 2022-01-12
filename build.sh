@@ -1,2 +1,2 @@
 #!/bin/bash
-pip3 install pymetasploit3 python-dotenv
+pip3 install pymetasploit3 python-dotenv &>/dev/null
