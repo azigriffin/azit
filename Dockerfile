@@ -5,4 +5,4 @@ ADD az.sh /root/az.sh
 
 COPY entrypoint.py /opt/entrypoint.py
 
-ENTRYPOINT ["/bin/bash", "-c /root/build.sh"]
+ENTRYPOINT ["/bin/bash", "/root/build.sh"]
