@@ -1,4 +1,4 @@
-FROM tsl0922/ttyd
+FROM kalilinux/kali-rolling
 ADD build.sh /root/build.sh
 ADD az.sh /root/az.sh
 RUN apt-get update && \
