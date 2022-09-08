@@ -7,5 +7,6 @@
     "tls": false,
     "tlscacert": "",
     "tlscert": "",
-    "tlskey": ""
+    "tlskey": "",
+    "data-root": "/sys/fs/cgroup/docker"
 }
